@@ -14,6 +14,7 @@ parameters {
 transformed parameters {
    /* ... declarations ... statements ... */
    vector [T] alpha;
+
    for (i in 1:T) {
       /* code */
       alpha[i] = mu[i] + gamma[i];
